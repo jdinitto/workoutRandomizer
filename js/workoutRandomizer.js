@@ -35,16 +35,20 @@ workoutRandomizer.workoutSelected = function workoutSelectedFunc (workout) {
 
 	for (var type in workouts) {
 		if (workouts.hasOwnProperty(type) && type === workout) {
-			for (i = 0; i < workouts[type].length; i++) {
-				document.getElementById('workouts').appendChild(
-					workoutRandomizer.buildSetButts(workouts[type][i], i)
-				);
+			var randoNumbers = workoutRandomizer.randomNumbersArray(workouts[type].length, workouts[type].length);
+			for (x = 0; x < randoNumbers.length; x++) {
+				var set = workouts[type][randoNumbers[x]];
+				if (typeof set !== 'object') {
+					document.getElementById('workouts').appendChild(
+						workoutRandomizer.buildSetButts(set)
+					);
+				};
 			};
 		};
 	};
 };
 
-workoutRandomizer.buildSetButts = function buildSetButtsFunc (set, number) {
+workoutRandomizer.buildSetButts = function buildSetButtsFunc (set) {
 	var setButt = document.createElement('button'),
 		setText = document.createTextNode(set);
 	
@@ -52,9 +56,27 @@ workoutRandomizer.buildSetButts = function buildSetButtsFunc (set, number) {
 		//workoutRandomizer.workoutSelected(workoutButt.value); 
 	});
 
-	number === 0 ? setButt.className = 'setButt next' : setButt.className = 'setButt';
+	//number === 0 ? setButt.className = 'setButt next' : setButt.className = 'setButt';
 	setButt.appendChild(setText);
 	return setButt;
+};
+
+workoutRandomizer.randomNumbersArray = function randomNumbersArrayFunc (size, max) {
+	var numbersArr = [], lengthToReturn = size;
+
+	var randomNumber = function (max) {
+		max = max || 50;
+		return Math.floor(Math.random() * max);
+	};
+
+	if (size > lengthToReturn) {size = lengthToReturn;}
+
+	while (numbersArr.length < lengthToReturn) {
+		var random = randomNumber(max);
+		if (numbersArr.indexOf(random) > -1) {continue;}
+			numbersArr[numbersArr.length] = random;
+		}
+	return numbersArr;
 };
 
 workoutRandomizer.init = function workoutRandomizerInit () {
