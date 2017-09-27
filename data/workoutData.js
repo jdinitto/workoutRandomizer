@@ -15,7 +15,8 @@ function workoutRandomizerDataReturner () {
                 "Diamond Push Up",
                 "Lawnmower",
                 "Staggered Push Up",
-                "Elbow Out Lawnmower", {
+                "Elbow Out Lawnmower", 
+                {
                     "final": [
                         "Max Rep Pull Up (any)",
                         "Max Rep Push Up (any)"
@@ -35,7 +36,8 @@ function workoutRandomizerDataReturner () {
                 "Flip Grip Kickback",
                 "Seat 2-angle Shoulder Fly",
                 "Crouching Cohen Curl",
-                "Lying Down Tricep", {
+                "Lying Down Tricep", 
+                {
                     "final": [
                         "Max Rep Curl",
                         "Max Rep Chair Dip"
@@ -56,7 +58,8 @@ function workoutRandomizerDataReturner () {
                 "Switch Grip Pull Up",
                 "Chair Salutation",
                 "Calf Raises",
-                "Leaning/Towel Pull Up", {
+                "Leaning/Towel Pull Up", 
+                {
                     "final": [
                         "Max Rep Pull Up (any)",
                         "Max Rep Balance Lunge"
@@ -82,7 +85,8 @@ function workoutRandomizerDataReturner () {
                 "Weighted Circle",
                 "Side-leaning Tricep",
                 "Fly-Row-Press",
-                "Staggered Push Up", {
+                "Staggered Push Up", 
+                {
                     "final": [
                         "Max Rep Chair Dip",
                         "Max Rep Push Up (any)"
@@ -109,7 +113,8 @@ function workoutRandomizerDataReturner () {
                 "Corkscrew",
                 "Chin Up",
                 "Curl Up, Hammer Down",
-                "In and Out Hammer Curl", {
+                "In and Out Hammer Curl", 
+                {
                     "final": [
                         "Max Rep Curl",
                         "Max Rep Pull Up (any)"
