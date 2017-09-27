@@ -6,34 +6,58 @@ body#workoutRandomizer #workouts button {
 	font-weight: bold;
 	margin-bottom: 2em;
 	outline: 0;
-	width: 200px;
-	height: 40px;
+	width: 400px;
+	height: auto;
+}
+
+body#workoutRandomizer #workouts button h2 {
+	font-weight: normal;
 }
 
 body#workoutRandomizer #workouts button:hover {
 	cursor: pointer;
 }
 
-body#workoutRandomizer #workouts button.unselectedWorkout {
+body#workoutRandomizer #workouts button.workoutButt.unselected {
 	display: none;
 }
 
-body#workoutRandomizer #workouts button.selectedWorkout {
+body#workoutRandomizer #workouts button.workoutButt.selected {
 	background-color: rgb(0, 0, 0);
 	display: block;
-	height: 80px;
 	width: 400px;
 }
 
-body#workoutRandomizer #workouts button.selectedWorkout:hover {
+body#workoutRandomizer #workouts button.workoutButt.selected:hover {
 	cursor: default;
 }
 
+body#workoutRandomizer #workouts button.workoutButt:not(.selected), 
 body#workoutRandomizer #workouts button.setButt {
+    padding: 1em 0;
+    font-size: 1.3em;
+}
+
+body#workoutRandomizer #workouts button.setButt.next {
 	background-color: rgb(200, 100, 120);
 	display: none;
 }
 
-body#workoutRandomizer #workouts button.setButt.next {
+body#workoutRandomizer #workouts button.setButt.current {
 	display: block;
+}
+
+body#workoutRandomizer #workouts button.setButt.done {
+	background-color: rgb(130, 130, 130);
+	text-decoration: line-through;
+	cursor: default;
+}
+
+body#workoutRandomizer #workouts p.done {
+	color: #ccc;
+	text-decoration: line-through;
+}
+
+body#workoutRandomizer #workouts h1#finalMsg {
+	display: none;
 }
