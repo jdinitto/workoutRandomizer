@@ -5,7 +5,7 @@ The script pulls from a data file at `data/workoutRandomizerData.js`, which woul
 
 Some of the workouts have an optional `final` object in the array, if you want to have some moves always appear last. The moves in that array are not randomized.
 
-[See it in action here](https://jdinitto.github.io/randomNumberGenerator/)
+[See it in action here](https://jdinitto.github.io/workoutRandomizer/)
 
 ## Some improvement ideas:
 - [ ] Randomize any moves found in the `final` array object, if it exists
