@@ -5,6 +5,8 @@ The script pulls from a data file at `data/workoutRandomizerData.js`, which woul
 
 Some of the workouts have an optional `final` object in the array, if you want to have some moves always appear last. The moves in that array are not randomized.
 
+This app is pure HTML, Javascript, and CSS. No frameworks are used.
+
 [See it in action here](https://jdinitto.github.io/workoutRandomizer/)
 
 ## Some improvement ideas:
