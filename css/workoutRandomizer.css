@@ -61,3 +61,21 @@ body#workoutRandomizer #workouts p.done {
 body#workoutRandomizer #workouts h1#finalMsg {
 	display: none;
 }
+
+@media only screen and (max-device-width: 680px) {
+	body#workoutRandomizer {
+		font-size: 4em;
+		padding: 1em;
+	}
+
+	body#workoutRandomizer #workouts button h1,
+	body#workoutRandomizer #workouts button h2 {
+		font-size: 4em;
+	}
+
+	body#workoutRandomizer #workouts button, 
+	body#workoutRandomizer #workouts button.workoutButt.selected {
+		margin: 0 auto 1em auto;
+		width: 95%;
+	}
+}
