@@ -4,120 +4,119 @@ function workoutRandomizerDataReturner () {
         "hideNextSets": true,
         "workouts": {
             "Chest and Back": [
-                "Standard Push Up",
-                "Wide Front Pull Up",
-                "Military Push Up",
-                "Reverse Grip Pull Up",
-                "Wide Fly Push Up",
-                "Close Grip Pull Up",
-                "Decline Push Up",
+                "Standard Push Ups",
+                "Wide Front Pull Ups",
+                "Military Push Ups",
+                "Reverse Grip Pull Ups",
+                "Wide Fly Push Ups",
+                "Close Grip Pull Ups",
                 "Heavy Pants",
-                "Diamond Push Up",
-                "Lawnmower",
-                "Staggered Push Up",
-                "Elbow Out Lawnmower", 
+                "Diamond Push Ups",
+                "Lawnmowers",
+                "Staggered Push Ups",
+                "Elbow Out Lawnmowers", 
                 {
                     "final": [
-                        "Max Rep Pull Up (any)",
-                        "Max Rep Push Up (any)"
+                        "Max Rep Pull Ups (any)",
+                        "Max Rep Push Ups (any)"
                     ]
                 }
             ],
 
             "Shoulders and Arms": [
                 "Shoulder Press",
-                "In and Out Curl",
-                "Two Arm Tricep Kickback",
+                "In and Out Curls",
+                "Two Arm Tricep Kickbacks",
                 "Deep Swimmers Press",
-                "Full Supination Curl",
-                "Chair Dip",
+                "Full Supination Curls",
+                "Chair Dips",
                 "Upright Rows",
-                "Static Arm Curl",
-                "Flip Grip Kickback",
-                "Seat 2-angle Shoulder Fly",
-                "Crouching Cohen Curl",
-                "Lying Down Tricep", 
+                "Static Arm Curls",
+                "Flip Grip Kickbacks",
+                "Seat 2-angle Shoulder Flys",
+                "Crouching Cohen Curls",
+                "Lying Down Tricep Extensions", 
                 {
                     "final": [
-                        "Max Rep Curl",
-                        "Max Rep Chair Dip"
+                        "Max Rep Curls",
+                        "Max Rep Chair Dips"
                     ]
                 }
             ],
 
             "Legs and Back": [
-                "Balance Lunge",
-                "Calf Raise Squat",
-                "Reverse Grip Chin Up",
-                "Super Skater",
-                "Wide Front Pull Up",
-                "Step Back Lunge",
-                "Close Grip Pull Up",
-                "Single Leg Squat",
-                "Deadlift Squat",
-                "Switch Grip Pull Up",
-                "Chair Salutation",
+                "Balance Lunges",
+                "Calf Raise Squats",
+                "Reverse Grip Chin Ups",
+                "Super Skaters",
+                "Wide Front Pull Ups",
+                "Step Back Lunges",
+                "Close Grip Pull Ups",
+                "Single Leg Squats",
+                "Deadlift Squats",
+                "Switch Grip Pull Ups",
+                "Chair Salutations",
                 "Calf Raises",
-                "Leaning/Towel Pull Up", 
+                "Leaning/Towel Pull Ups", 
                 {
                     "final": [
-                        "Max Rep Pull Up (any)",
-                        "Max Rep Balance Lunge"
+                        "Max Rep Pull Ups (any)",
+                        "Max Rep Balance Lunges"
                     ]
                 }
             ],
 
             "Chest, Shoulders, and Tris": [
-                "Slow Mo 3 Position Push Up",
+                "Slow Mo 3 Position Push Ups",
                 "In and Out Shoulder Fly",
                 "Chair Dip",
                 "Plange Push Up",
                 "Pike Press",
-                "Two Arm Tricep Kickback",
-                "Floor Fly",
-                "Scarecrow",
-                "Overhead Tricep",
-                "Two-twitch Speed Push Up",
+                "Two Arm Tricep Kickbacks",
+                "Floor Flys",
+                "Scarecrows",
+                "Overhead Triceps",
+                "Two-twitch Speed Push Ups",
                 "Y Press",
-                "Lying Down Tricep",
+                "Lying Down Triceps",
                 "Side to Side Push Up",
-                "Pour Fly",
-                "Weighted Circle",
-                "Side-leaning Tricep",
+                "Pour Flys",
+                "Weighted Circles",
+                "Side-leaning Tricep Extensions",
                 "Fly-Row-Press",
-                "Staggered Push Up", 
+                "Staggered Push Ups", 
                 {
                     "final": [
-                        "Max Rep Chair Dip",
-                        "Max Rep Push Up (any)"
+                        "Max Rep Chair Dips",
+                        "Max Rep Push Ups (any)"
                     ]
                 }
             ],
 
             "Back and Biceps": [
-                "Wide Front Pull Up",
-                "Lawnmower",
+                "Wide Front Pull Ups",
+                "Lawnmowers",
                 "Twenty Ones",
-                "One Arm Cross Body Curl",
-                "Switch Grip Pull Up",
-                "Elbow Out Lawnmower",
-                "Standing Bicep Curl",
-                "One Arm Concentration Curl",
-                "Corn Cob Pull Up",
-                "Reverse Grip Bent Over Row",
-                "Open Arm Curl",
-                "Static Arm Curl",
-                "Towel/Leaning Pull Up",
-                "Congdon Locomotive",
-                "Crouching Cohen Curl",
-                "Corkscrew",
-                "Chin Up",
+                "One Arm Cross Body Curls",
+                "Switch Grip Pull Ups",
+                "Elbow Out Lawnmowers",
+                "Standing Bicep Curls",
+                "One Arm Concentration Curls",
+                "Corn Cob Pull Ups",
+                "Reverse Grip Bent Over Rows",
+                "Open Arm Curls",
+                "Static Arm Curls",
+                "Towel/Leaning Pull Ups",
+                "Congdon Locomotives",
+                "Crouching Cohen Curls",
+                "Corkscrew Curls",
+                "Chin Ups",
                 "Curl Up, Hammer Down",
-                "In and Out Hammer Curl", 
+                "In and Out Hammer Curls", 
                 {
                     "final": [
-                        "Max Rep Curl",
-                        "Max Rep Pull Up (any)"
+                        "Max Rep Curls",
+                        "Max Rep Pull Ups (any)"
                     ]
                 }
             ],
@@ -125,14 +124,14 @@ function workoutRandomizerDataReturner () {
             "Core": [
                 "In and Out",
                 "Bicycles (forward and back)",
-                "Crunchy Frog",
-                "Wide Leg Sit Up",
+                "Crunchy Frogs",
+                "Wide Leg Sit Ups",
                 "Fifer Scissor",
-                "Hip Rock Raise",
-                "Pulse Up",
-                "V-Up Roll Up",
-                "Oblique V-up (both sides)",
-                "Mason Twist"
+                "Hip Rock Raises",
+                "Pulse Ups",
+                "V-Up Roll Ups",
+                "Oblique V-ups (both sides)",
+                "Mason Twists"
             ]
         }
     }
