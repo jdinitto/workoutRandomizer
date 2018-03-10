@@ -82,7 +82,7 @@ workoutRandomizer.buildSetButts = function buildSetButtsFunc (set) {
 		setText = document.createTextNode(set);
 
 	setButt.addEventListener('click', function() { 
-		if (this.className === 'setButt done') {return false};
+		if (this.className === 'setButt done' || this.className === 'workoutButt selected') {return false};
 
 		var nextButt = document.getElementsByClassName('next')[0],
 			nextTextEl = document.createElement('p'),
