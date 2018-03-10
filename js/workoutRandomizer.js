@@ -32,7 +32,7 @@ workoutRandomizer.workoutSelected = function workoutSelectedFunc (workout) {
 	for (i = 0; i < generatedButts.length; i++) {
 		generatedButts[i].className = 'workoutButt unselected';
 		if (generatedButts[i].value === workout) {
-			generatedButts[i].className = 'workoutButt selected';
+			generatedButts[i].className = 'workoutButt selected title';
 			generatedButts[i].innerHTML = chosenText;
 		} 
 	};
@@ -82,7 +82,7 @@ workoutRandomizer.buildSetButts = function buildSetButtsFunc (set) {
 		setText = document.createTextNode(set);
 
 	setButt.addEventListener('click', function() { 
-		if (this.className === 'setButt done' || this.value) {alert('bang!');return false};
+		if (this.className === 'setButt done') {return false};
 
 		var nextButt = document.getElementsByClassName('next')[0],
 			nextTextEl = document.createElement('p'),
