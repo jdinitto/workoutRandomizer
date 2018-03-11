@@ -10,6 +10,7 @@ This app is pure HTML, Javascript, and CSS. No frameworks are used.
 [See it in action here](https://jdinitto.github.io/workoutRandomizer/)
 
 ## Some improvement ideas:
+- [ ] DEFECT: When you select a workout, a black title section appears. This has an onclick attached to it that shouldn't be there, as it essentially restarts the workout. Boo!
 - [ ] Randomize any moves found in the `final` array object, if it exists
 - [ ] Option to show all final moves at once, or at least indicate the final move when the user comes to it. Might be a good idea.
 - [ ] Code optimization
