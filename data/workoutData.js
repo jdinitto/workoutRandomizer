@@ -4,21 +4,26 @@ function workoutRandomizerDataReturner () {
         "hideNextSets": true,
         "workouts": {
             "Chest and Back": [
-                "Standard Push Ups",
+                /* "Standard Push Ups", */
+                "Bench Press",
                 "Wide Front Pull Ups",
-                "Military Push Ups",
+                /* "Military Push Ups", */
                 "Reverse Grip Pull Ups",
-                "Wide Fly Push Ups",
+                /* "Wide Fly Push Ups", */
                 "Close Grip Pull Ups",
+                "Horn Dips",
                 "Heavy Pants",
-                "Diamond Push Ups",
+                /* "Diamond Push Ups", */
                 "Lawnmowers",
-                "Staggered Push Ups",
+                /* "Staggered Push Ups", */
+                "Dumbbell Bench Press",
                 "Elbow Out Lawnmowers", 
+                "Bench Press",
                 {
                     "final": [
                         "Max Rep Pull Ups (any)",
-                        "Max Rep Push Ups (any)"
+                        /* "Max Rep Push Ups (any)" */
+                        "Max Rep Dip Horns" */
                     ]
                 }
             ],
@@ -29,7 +34,8 @@ function workoutRandomizerDataReturner () {
                 "Two Arm Tricep Kickbacks",
                 "Deep Swimmers Press",
                 "Full Supination Curls",
-                "Chair Dips",
+                /* "Chair Dips", */
+                "Dip Horns",
                 "Upright Rows",
                 "Static Arm Curls",
                 "Flip Grip Kickbacks",
@@ -39,7 +45,8 @@ function workoutRandomizerDataReturner () {
                 {
                     "final": [
                         "Max Rep Curls",
-                        "Max Rep Chair Dips"
+                        /* "Max Rep Chair Dips" */
+                        "Dip Horns"
                     ]
                 }
             ],
@@ -61,34 +68,39 @@ function workoutRandomizerDataReturner () {
                 {
                     "final": [
                         "Max Rep Pull Ups (any)",
-                        "Max Rep Balance Lunges"
+                        /* "Max Rep Balance Lunges" */
+                        "Max Rep Dumbbell Squats"
                     ]
                 }
             ],
 
             "Chest, Shoulders, and Tris": [
-                "Slow Mo 3 Position Push Ups",
+                /* "Slow Mo 3 Position Push Ups", */
+                "Dip Horns",
                 "In and Out Shoulder Fly",
-                "Chair Dip",
-                "Plange Push Up",
-                "Pike Press",
+                /* "Chair Dip", */
+                "Bench Press",
+                /* "Plange Push Up",
+                "Pike Press", */
                 "Two Arm Tricep Kickbacks",
-                "Floor Flys",
+                /* "Floor Flys", */
+                "Dumbbell Bench Press",
                 "Scarecrows",
                 "Overhead Triceps",
-                "Two-twitch Speed Push Ups",
+                /* "Two-twitch Speed Push Ups", */
                 "Y Press",
                 "Lying Down Triceps",
-                "Side to Side Push Up",
+                /* "Side to Side Push Up", */
                 "Pour Flys",
                 "Weighted Circles",
                 "Side-leaning Tricep Extensions",
-                "Fly-Row-Press",
+                "Row-Press",
+                "Standing Shoulder Flys",
                 "Staggered Push Ups", 
                 {
                     "final": [
-                        "Max Rep Chair Dips",
-                        "Max Rep Push Ups (any)"
+                        "Max Rep Shoulder Press",
+                        "Max Rep Bench Press"
                     ]
                 }
             ],
