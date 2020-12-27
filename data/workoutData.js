@@ -23,7 +23,7 @@ function workoutRandomizerDataReturner () {
                     "final": [
                         "Max Rep Pull Ups (any)",
                         /* "Max Rep Push Ups (any)" */
-                        "Max Rep Dip Horns" */
+                        "Max Rep Dip Horns"
                     ]
                 }
             ],
