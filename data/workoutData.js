@@ -78,6 +78,7 @@ function workoutRandomizerDataReturner () {
                 /* "Slow Mo 3 Position Push Ups", */
                 /* "Chair Dip", */
                  /* "Plange Push Up",
+                 "Staggered Push Ups", 
                 "Pike Press", */
                 /* "Floor Flys", */
                 /* "Two-twitch Speed Push Ups", */
@@ -96,7 +97,6 @@ function workoutRandomizerDataReturner () {
                 "Side-leaning Tricep Extensions",
                 "Row-Press",
                 "Standing Shoulder Flys",
-                "Staggered Push Ups", 
                 {
                     "final": [
                         "Max Rep Shoulder Press",
