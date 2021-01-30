@@ -108,19 +108,19 @@ function workoutRandomizerDataReturner () {
             "Back and Biceps": [
                 "Wide Front Pull Ups",
                 "Lawnmowers",
-                "Twenty Ones",
+                /*"Twenty Ones",*/
                 "One Arm Cross Body Curls",
-                "Switch Grip Pull Ups",
+                /* "Switch Grip Pull Ups", */
                 "Elbow Out Lawnmowers",
                 "Standing Bicep Curls",
                 "One Arm Concentration Curls",
                 "Corn Cob Pull Ups",
-                "Reverse Grip Bent Over Rows",
+                /* "Reverse Grip Bent Over Rows", */
                 "Open Arm Curls",
                 "Static Arm Curls",
                 "Towel/Leaning Pull Ups",
-                "Congdon Locomotives",
-                "Crouching Cohen Curls",
+                /* "Congdon Locomotives", */
+                /* "Crouching Cohen Curls",*/
                 "Corkscrew Curls",
                 "Chin Ups",
                 "Curl Up, Hammer Down",
