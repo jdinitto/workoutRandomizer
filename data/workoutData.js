@@ -113,7 +113,7 @@ function workoutRandomizerDataReturner () {
                 /* "Switch Grip Pull Ups", */
                 "Elbow Out Lawnmowers",
                 "Standing Bicep Curls",
-                "One Arm Concentration Curls",
+                "Lawnmower Stance Curls",
                 "Corn Cob Pull Ups",
                 /* "Reverse Grip Bent Over Rows", */
                 "Open Arm Curls",
